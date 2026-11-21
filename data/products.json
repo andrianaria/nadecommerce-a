@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sushicake-chisai",
+    "name": "Chisai",
+    "category": "Sushi Cake",
+    "price": 145000,
+    "serves": "2-3 orang",
+    "pieces": 29,
+    "description": "Cake sushi mungil untuk birthday surprise, quick celebration, atau comfort food fancy tapi tetap santai.",
+    "tagline": "Cute party starter",
+    "theme": "salmon-sunrise",
+    "featured": true,
+    "spotlight": true,
+    "deliverySize": "small",
+    "spicyLevel": "Mild",
+    "items": [
+      "Salmon Mozza 8 pcs",
+      "Firecracker Roll / Cheesy Salmon Roll 5 pcs",
+      "Salmon Maki 8 pcs",
+      "Spicy Tuna Maki 8 pcs"
+    ]
+  },
+  {
+    "id": "sushicake-kawaii",
+    "name": "Kawaii",
+    "category": "Sushi Cake",
+    "price": 150000,
+    "serves": "2-3 orang",
+    "pieces": 31,
+    "description": "Vibe paling playful untuk surprise manis dengan kombinasi creamy, spicy, dan crowd-pleasing.",
+    "tagline": "Birthday energy boost",
+    "theme": "mango-pop",
+    "featured": true,
+    "spotlight": false,
+    "deliverySize": "small",
+    "spicyLevel": "Medium",
+    "items": [
+      "Salmon Mozza 5 pcs",
+      "Cheesy Salmon Roll 5 pcs",
+      "Spicy Tuna Roll 5 pcs",
+      "Spicy Tuna Maki 8 pcs",
+      "Salmon Maki 8 pcs"
+    ]
+  },
+  {
+    "id": "sushicake-kofuku",
+    "name": "Kofuku",
+    "category": "Sushi Cake",
+    "price": 300000,
+    "serves": "5-6 orang",
+    "pieces": 72,
+    "description": "Sushi cake rame-rame yang pas untuk kantor, keluarga besar, dan celebration table centerpiece.",
+    "tagline": "Party centerpiece",
+    "theme": "wasabi-burst",
+    "featured": false,
+    "spotlight": false,
+    "deliverySize": "medium",
+    "spicyLevel": "Mixed",
+    "items": [
+      "Kani Tanuki Roll 8 pcs",
+      "Salmon Mozza 8 pcs",
+      "Cheesy Salmon Roll 8 pcs",
+      "California Street Roll 8 pcs",
+      "Tuna Mayo Maki 8 pcs",
+      "Salmon Maki 8 pcs",
+      "Tamago Maki 8 pcs",
+      "Kani Maki 8 pcs"
+    ]
+  },
+  {
+    "id": "sushicake-oiwai",
+    "name": "Oiwai",
+    "category": "Sushi Cake",
+    "price": 330000,
+    "serves": "5-6 orang",
+    "pieces": 72,
+    "description": "Pilihan premium yang terasa meriah, bold, dan cocok jadi hero product untuk momen spesial.",
+    "tagline": "Big celebration mode",
+    "theme": "night-market",
+    "featured": false,
+    "spotlight": false,
+    "deliverySize": "medium",
+    "spicyLevel": "Bold",
+    "items": [
+      "Hebi Roll 8 pcs",
+      "Crispy Unagi Roll 8 pcs",
+      "Cheesy Salmon Roll 8 pcs",
+      "Spicy Tuna Maki 8 pcs",
+      "Salmon Maki 8 pcs"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "demo-promotion-1",
+    "code": "DEMO_SAVINGS_1",
+    "name": "Demo promotion 1",
+    "description": "Fictional promotion for local development.",
+    "eligibilityScope": "first_order_member",
+    "discountType": "percentage",
+    "discountValue": 10,
+    "maxDiscount": 25000,
+    "minSubtotal": 100000,
+    "autoApply": true,
+    "isActive": true,
+    "startsAt": null,
+    "endsAt": null,
+    "productSlugs": [],
+    "outletSlugs": [],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  }
+]

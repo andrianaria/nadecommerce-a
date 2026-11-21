@@ -1,0 +1,177 @@
+.pageShell {
+  padding: 24px 20px 72px;
+}
+
+.checkoutLayout {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 24px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.formPanel,
+.summaryPanel {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: var(--shadow);
+}
+
+.formPanel label {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.formPanel input,
+.formPanel select,
+.formPanel textarea {
+  width: 100%;
+  border: 1px solid rgba(31, 26, 23, 0.12);
+  border-radius: 16px;
+  padding: 12px 14px;
+  background: rgba(255, 252, 247, 0.95);
+}
+
+.inlineFields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.fieldHelper {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.mapPicker {
+  display: grid;
+  gap: 10px;
+}
+
+.mapPickerMeta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mapPickerHint {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.mapPickerButton {
+  border: 1px solid rgba(31, 26, 23, 0.12);
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 999px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.mapPickerError {
+  color: var(--berry);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.mapCanvasWrap {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(31, 26, 23, 0.12);
+  background: rgba(255, 252, 247, 0.95);
+}
+
+.mapCanvas {
+  width: 100%;
+  height: 240px;
+}
+
+.mapCanvasOverlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.mapPickerCoords {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.formPanel button {
+  width: 100%;
+  min-height: 50px;
+  border: none;
+  border-radius: 999px;
+  background: var(--ink);
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.whatsappButton {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  margin-top: 12px;
+  border-radius: 999px;
+  background: #25d366;
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 16px 30px rgba(37, 211, 102, 0.24);
+}
+
+.formStatus {
+  min-height: 24px;
+  color: var(--berry);
+  font-weight: 700;
+}
+
+.summaryList {
+  display: grid;
+  gap: 10px;
+}
+
+.summaryItem,
+.summaryRow,
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.summaryRow {
+  margin-top: 14px;
+  color: var(--muted);
+}
+
+.totalRow {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(31, 26, 23, 0.08);
+}
+
+@media (max-width: 980px) {
+  .checkoutLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .inlineFields {
+    grid-template-columns: 1fr;
+  }
+}

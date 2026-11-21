@@ -1,0 +1,24 @@
+{
+  "name": "nadecommerce-a",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NEXT_DIST_DIR=.next-dev next dev",
+    "dev:stable": "NEXT_DIST_DIR=.next-dev CHOKIDAR_USEPOLLING=1 WATCHPACK_POLLING=true next dev --port 3001 --hostname ::",
+    "build": "NEXT_DIST_DIR=.next-build next build",
+    "start": "NEXT_DIST_DIR=.next-build next start",
+    "preview:3001": "NEXT_DIST_DIR=.next-build next build && NEXT_DIST_DIR=.next-build next start -p 3001"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "next": "13.4.19",
+    "mysql2": "^3.14.1",
+    "nodemailer": "^8.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}

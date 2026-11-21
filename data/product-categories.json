@@ -1,0 +1,22 @@
+[
+  {
+    "id": "hampers",
+    "name": "Hampers",
+    "slug": "hampers"
+  },
+  {
+    "id": "paket-ramean",
+    "name": "Paket Ramean",
+    "slug": "paket-ramean"
+  },
+  {
+    "id": "platters",
+    "name": "Platters",
+    "slug": "platters"
+  },
+  {
+    "id": "sushi-cake",
+    "name": "Sushi Cake",
+    "slug": "sushi-cake"
+  }
+]

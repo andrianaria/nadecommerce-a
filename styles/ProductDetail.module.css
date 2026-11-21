@@ -1,0 +1,220 @@
+.pageShell {
+  padding: 24px 20px 72px;
+}
+
+.detailLayout {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 24px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.mediaPanel,
+.copyPanel {
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.mediaPanel {
+  padding: 18px;
+}
+
+.coverImage,
+.placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 24px;
+}
+
+.coverImage {
+  object-fit: cover;
+}
+
+.placeholder {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #fff2d5, #ffd7c2 60%, #ffbe98);
+  color: var(--navy);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.galleryRow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.thumb {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.copyPanel {
+  padding: 28px;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--berry);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+}
+
+.copyPanel h1 {
+  margin: 10px 0 8px;
+  font-size: clamp(2.6rem, 6vw, 4.6rem);
+  line-height: 0.95;
+}
+
+.tagline {
+  margin: 0 0 16px;
+  color: var(--navy);
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.description,
+.notice {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.outletNotice,
+.availableOutletList {
+  margin: 12px 0 0;
+  color: var(--navy);
+  line-height: 1.7;
+}
+
+.availableOutletList {
+  color: var(--muted);
+}
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 24px;
+}
+
+.priceBlock strong {
+  font-size: 2rem;
+}
+
+.itemList {
+  display: grid;
+  gap: 10px;
+  margin: 24px 0;
+  padding-left: 18px;
+}
+
+.quantityRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.quantityControl {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  border: 1px solid rgba(31, 26, 23, 0.08);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.quantityControl button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #1c4fbf, #19335a 72%);
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.quantityControl span {
+  min-width: 24px;
+  text-align: center;
+}
+
+.noteField {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.noteField select {
+  width: 100%;
+  border: 1px solid rgba(31, 26, 23, 0.12);
+  border-radius: 16px;
+  padding: 12px 14px;
+  background: rgba(255, 252, 247, 0.95);
+  font: inherit;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 22px;
+  border: none;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primaryButton {
+  background: var(--ink);
+  color: white;
+}
+
+.primaryButton:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.secondaryButton {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--navy);
+  border: 1px solid rgba(31, 26, 23, 0.08);
+}
+
+.unavailableNotice {
+  margin-top: 14px;
+  color: #b93815;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+@media (max-width: 980px) {
+  .detailLayout {
+    grid-template-columns: 1fr;
+  }
+}
